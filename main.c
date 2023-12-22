@@ -13,7 +13,7 @@ void game_screen()
 
     counter = 0; //Tahmin hakkı
 
-    //int will_exit = 0;
+    
 
     while(counter < 5)  //Kalan tahmin hakkı 5'ten küçük olduğu sürece oyun devam eder
     {
@@ -41,7 +41,6 @@ void game_screen()
             }
             else
             {
-                //exit(0);
                 return;
             }
         }
@@ -58,7 +57,6 @@ void game_screen()
             }
             else
             {
-                //exit(0);
                 return;
             }
         }
